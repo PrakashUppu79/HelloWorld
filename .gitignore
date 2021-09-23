@@ -1,2 +1,58 @@
-*.class
+.class
 *.log
+
+### SBT ###
+# Simple Build Tool
+# http://www.scala-sbt.org/release/docs/Getting-Started/Directories.html#configuring-version-control
+
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history
+.cache
+.lib/
+project/project/*
+project/target/*
+.scannerwork
+
+
+### Spark ###
+*#*#
+*.#*
+*.iml
+*.ipr
+*.iws
+*.pyc
+*.pyo
+*.swp
+*~
+.DS_Store
+.classpath
+.ensime
+.ensime_cache/
+.ensime_lucene
+.generated-mima*
+.idea/
+.idea_modules/
+.project
+.pydevproject
+.scala_dependencies
+.settings
+/lib/
+
+
+# For SBT
+.jvmopts
+project/target
+Test.scala
+
+to_submit.sh
+# Files generated
+*part*
+*SUCCESS*
+*.part*
+*metastore_db*
+version.sbt
